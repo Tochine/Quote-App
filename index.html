@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="style.css?ver=1.2">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+	<link href="https://fonts.googleapis.com/css?family=Sofia" rel='stylesheet'>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<title>Quote Gen</title>
+	</head>
+	<body id="img" style="height:100%; width:100%">
+		<div class="container">
+			<div id="content">
+				<p id="quoteDisplay">You cannot shake hands with a clenched fist.</p>
+			</div>
+			<div class="text-center">
+				<button onclick="allQuote()">All Quotes</button>
+
+				<button value="New Quote" id="new_quote" onclick="entNewQuote()">New Quote</button>
+			</div>
+			<div class="col-md-4" id="new_quote_here" style="margin:20px 0px 0px 400px; display: none;">
+				<textarea class="form-control" type="text" col="40" id="addquote"></textarea>
+				<button onclick="addquote()">submit</button>
+			</div>
+		</div>
+	</body>
+	<!-- First include jquery js -->
+<script src="//code.jquery.com/jquery-1.12.0.min.js?ver=2.3"></script>
+<!-- <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="javascript.js"></script>
+</html>
+
+
